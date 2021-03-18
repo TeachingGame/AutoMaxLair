@@ -100,6 +100,11 @@ DYNITE_ORE = 0
 # If you had to stop the script and have not reset your reset counter by clearing
 # an adventure, set this number to how many you previously had.
 CONSECUTIVE_RESETS = 0
+# === NON_LEGEND ==
+# This setting will reset any completed run in which the pokemon listed was caught in. It will 
+# continue to reset and use ore in this manner until it either finds a shiny of some type or 
+# does not have enough ore to afford another reset.
+NON_LEGEND = "default"
 # === ENABLE_DEBUG_LOGS ===
 # This enables the debug logs in your Python console. This can be very useful when
 # you're running into problems and need to report to the developers what's happening.
